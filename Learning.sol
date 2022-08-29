@@ -8,7 +8,7 @@ contract learnBlockchain {    // contract syntax and opening
     constructor()  { // A Solidity constructor is called once when a new instance of a smart contract is deployed in Ethereum blockchain
     }
 
-    function OrderOnline() external payable {  // Syntax for recieving ether in solidity i.e only a payable function can recieve ether ,otherwise the function fails
+    function orderOnline() external payable {  // Syntax for recieving ether in solidity i.e only a payable function can recieve ether ,otherwise the function fails
         require(msg.value == 0.0001 ether);
     }
 
